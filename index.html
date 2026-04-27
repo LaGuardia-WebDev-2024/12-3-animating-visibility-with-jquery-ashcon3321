@@ -11,10 +11,10 @@
     <button id="button3">Fade In</button>
     <button id="button4">Surprise</button>
 
-    <h1 id="snake-h1">Snake</h1>
+    <h1 id="snake-h1">Cecil</h1>
     <img
       id="snake-pic"
-      src="https://upload.wikimedia.org/wikipedia/commons/4/40/Chrysopelea_taprobanica.jpg"
+      src="https://static1.cbrimages.com/wordpress/wp-content/uploads/2021/05/Invincible-Cecil-Stedman-.jpeg"
       width="400"
     />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
@@ -31,16 +31,22 @@
 
       // ======================== Button #2
       $("#button2").click(function () {
+        $pic.slideDown();
+        $h1.slideDown();
      
       });
 
       // ======================== Button #3
       $("#button3").click(function () {
+        $pic.fadeIn();
+        $h1.fadeIn();
     
       });
 
        // ======================== Button #3
       $("#button4").click(function () {
+        $pic.fadeOut();
+        $h1.fadeOut();
     
       });
 
